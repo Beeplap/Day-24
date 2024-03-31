@@ -1,0 +1,23 @@
+@media only screen and (max-width: 720px) {
+  main {
+    max-width: 500px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .box {
+    padding: 4rem 2rem;
+    padding-bottom: 6rem;
+  }
+  i {
+    top: 450px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .container {
+    flex-direction: column;
+  }
+  .box {
+    padding-bottom: 7rem;
+  }
+}
