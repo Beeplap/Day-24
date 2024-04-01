@@ -12,8 +12,50 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+      integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <div class="navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+              <a class="nav-link" href="#hero">Projects</a>
+              <a class="nav-link" href="#contact">Contact</a>
+              <a
+                class="nav-link disabled"
+                href="#Blog"
+                tabindex="-1"
+                aria-disabled="true"
+                >Blog</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
     <header>
       <div class="nav u-container">
         <div class="left">
@@ -82,15 +124,19 @@
           src="./Assets/gettyimages-1352603244-612x612.jpg"
           alt=""
         />
-        <button class="a">Developer</button>
-        <h2>Lorem Ipsum is simply dummy text of the printing</h2>
-        <i class="ri-arrow-right-circle-line"></i>
+        <div class="inside">
+          <button class="a">Developer</button>
+          <h2>Lorem Ipsum is simply dummy text of the printing</h2>
+          <i class="ri-arrow-right-circle-line"></i>
+        </div>
       </div>
       <div class="card">
         <img class="dev-img" src="./Assets/hi.avif" alt="" />
-        <button class="b">Designer</button>
-        <h2>Lorem Ipsum is simply dummy text of the printing</h2>
-        <i class="ri-arrow-right-circle-line"></i>
+        <div class="inside">
+          <button class="b">Designer</button>
+          <h2>Lorem Ipsum is simply dummy text of the printing</h2>
+          <i class="ri-arrow-right-circle-line"></i>
+        </div>
       </div>
       <div class="card">
         <img
@@ -98,9 +144,11 @@
           src="./Assets/person-front-computer-working-html_23-2150038835.jpg"
           alt=""
         />
-        <button class="c">Editor</button>
-        <h2>Lorem Ipsum is simply dummy text of the printing</h2>
-        <i class="ri-arrow-right-circle-line"></i>
+        <div class="inside">
+          <button class="c">Editor</button>
+          <h2>Lorem Ipsum is simply dummy text of the printing</h2>
+          <a href="#"> <i class="ri-arrow-right-circle-line"></i></a>
+        </div>
       </div>
     </div>
     <div id="contact">
@@ -147,5 +195,32 @@
         </div>
       </div>
     </div>
+    <div class="end">
+      <div class="endt">
+        <h4>Code Opacity</h4>
+        <p>
+          NEED A WEB DEVELOPER? <br />
+          LET'S BUILD SOMETHING!
+        </p>
+        <div class="iconic">
+          <i class="ri-google-fill"></i>
+          <i class="ri-linkedin-box-fill"></i>
+          <i class="ri-github-fill"></i>
+          <i class="ri-dribbble-line"></i>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h5>
+        Copyright<i class="ri-copyright-line"></i>2024 CodeOpacity, Design By
+        <span>Beeplap</span>
+      </h5>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"
+      integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>
